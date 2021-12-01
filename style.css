@@ -1,0 +1,177 @@
+
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: "mulish", sans-serif;
+    
+}
+
+.wrapper{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 56px 180px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 160px;
+    height: 41px;
+    left: 191px;
+    top: 56px;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-items li a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color:#1F1534;
+    opacity: 0.5;
+    margin: 0 20px;
+}
+
+.nav-items li a.active{
+
+    font-weight: bold;
+    opacity: 1;
+
+}
+
+.elements{
+    position: absolute;
+    left: 0;
+    top: 160px; 
+    
+}
+
+.hero-container {
+    display: flex;
+    margin-top: 84;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container .left{
+    margin-right: 124px;
+}
+
+.hero-container .left h1{
+    font-family: Mulish;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.hero-container .left p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 32px;
+    width: 310px;
+    color: #7D7987;
+
+
+}
+
+.btn{
+    font-weight: bold;
+font-size: 18px;
+line-height: 60px;
+padding: 15px 40px;
+border-radius: 55px;
+}
+
+.btn-primary{
+    color: #FFFFFF;
+    background: #458FF6;
+}
+
+
+
+ /* section 2 */
+
+.section2 .heading2{
+    margin-top: 192px;
+    text-align: center;
+}
+
+.heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+
+}
+
+.service-text-block{
+    margin-top: 61px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+
+
+}
+
+/* section 2 inside icons */
+
+.section2 .section2-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.icon-item{
+    width: 350px;
+    height: 254px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding: 39px;
+    margin-left: 34px;
+    margin-top: 37px;
+}
+
+.section2 .section2-inner .icon-item img{
+
+    margin-bottom: 22px;
+}
+
+.section2 .section2-inner .icon-item h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+
+}
+
+.section2 .section2-inner .icon-item p{
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+
+}
