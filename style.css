@@ -240,13 +240,13 @@ body{
 
 /* download mobile app section */
 
-.mobile-app{
+.apps{
     display:flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.mobile-app-info-title{
+.apps-heading{
     width:481px;
     height: 112px;
     font-size: 36px;
@@ -257,37 +257,39 @@ body{
 }
 
 
-.mobile-app-line{
+.apps-line{
     align-self: auto;
 
 }
 
-.mobile-app-info-description{
-
+.apps-details{
     font-style: normal;
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 18px;
     line-height: 30px;
     color: #7D7987;
     margin-top: 31px;
-    
+    max-width: 420px;
+    max-height: 120px;
 }
-.mobile-app-btn{
-
-    left: 17.5%;
-    right: 70%;
-    top: 57.56%;
-    bottom: 41.48%;
+.apps-btn{
+    width: 200px;
+    height:56px;
+    margin-top: 40px;
     border: 1.4px solid #458FF6;
     box-sizing: border-box;
+    background: #ffffff ; 
     border-radius: 55px;
+    color: #458FF6;
     font-weight: bold;
     font-size: 18px;
     line-height: 60px;
 }
 
-.app-right{
-    height: 434;
-    width:660px;
+.apps-right{
+    height: 434px;
+    width: 660px;
     margin-top: 126px;
+    margin-left: 28px;
+    
 }
